@@ -22,4 +22,8 @@ class Achievement < ActiveRecord::Base
     includes(:user).where('title LIKE ?', "#{letter}%").order('users.email')
   end
 
+  def self.get_public_achievements
+
+  end
+
 end
