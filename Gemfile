@@ -28,6 +28,7 @@ gem 'bootstrap-sass'
 gem 'simple_form'
 gem 'redcarpet'
 gem 'devise'
+gem 'active_model_serializers', '0.10.0.rc2'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
